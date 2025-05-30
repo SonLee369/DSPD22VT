@@ -1,4 +1,9 @@
 # Dự án: PHÂN LOẠI ÂM THANH MÔI TRƯỜNG
+## Nhóm dự án
+* Le Huu Son - B22DCVT439 - 05
+* Nguyen Tien Sang - B23DCVT369 - 05
+* Vu Trong Kien - B23DCDT152 -05
+---
 
 ## Giới thiệu
 
@@ -95,11 +100,3 @@ Dự án này sử dụng các thư viện Python chính sau:
 
 Tất cả các thư viện này sẽ được cài đặt tự động (hoặc đã có sẵn) khi bạn chạy ô code thiết lập môi trường trong Notebook.
 
-## Liên hệ
-
-Nếu có bất kỳ câu hỏi hoặc góp ý nào về dự án, vui lòng liên hệ:
-
-*   [Tên Sinh viên 1] - [Email Sinh viên 1]
-*   [Tên Sinh viên 2] - [Email Sinh viên 2]
-
----
