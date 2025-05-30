@@ -18,6 +18,7 @@ Dự án này tập trung vào việc xây dựng một hệ thống tự độn
 
 ## Cấu trúc Thư mục Dự án
 environmental_sound_classification/
+
 ├── data/
 
 │ ├── raw/ # Chứa dữ liệu âm thanh gốc (ESC-50-master.zip và thư mục giải nén)
