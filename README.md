@@ -33,8 +33,25 @@ environmental_sound_classification/
 
 ├── ESC_Project_Notebook.ipynb # File Google Colab Notebook chính (là toàn bộ mã nguồn)
 
-└── (Các file báo cáo hoặc tài liệu khác nếu có)
+## Yêu cầu Hệ thống
 
+*   **Google Colab:** Môi trường được khuyến nghị.
+*   **GPU:** Bắt buộc để huấn luyện mô hình học sâu một cách hiệu quả. (Được cung cấp miễn phí bởi Google Colab).
+*   **Google Drive:** Cần không gian trống (khoảng 1 GB) để lưu trữ dữ liệu và mô hình.
+
+## Thư viện Python
+
+Dự án này sử dụng các thư viện Python chính sau:
+
+*   `torch`: PyTorch Deep Learning Framework
+*   `librosa`: Xử lý và phân tích âm thanh
+*   `numpy`: Tính toán khoa học
+*   `pandas`: Phân tích và thao tác dữ liệu
+*   `scikit-learn`: Tiền xử lý dữ liệu và đánh giá mô hình
+*   `matplotlib`, `seaborn`: Trực quan hóa dữ liệu
+*   `tqdm`: Hiển thị thanh tiến độ
+
+Tất cả các thư viện này sẽ được cài đặt tự động (hoặc đã có sẵn) khi bạn chạy ô code thiết lập môi trường trong Notebook.
 
 ## Cách Chạy Dự án
 
@@ -84,27 +101,9 @@ Dự án này được thiết kế để chạy trên **Google Colab** để t�
 
 ## Kết quả Chính (Dự kiến)
 
-*   **Độ chính xác trên tập kiểm thử:** [Ví dụ: ~75-80% cho ESC-50].
+*   **Độ chính xác trên tập kiểm thử:** 17,5% cho ESC-50.
 *   **Biểu đồ Loss & Accuracy:** Sẽ hiển thị quá trình hội tụ của mô hình.
 *   **Báo cáo phân loại và Ma trận nhầm lẫn:** Cung cấp thông tin chi tiết về hiệu suất cho từng lớp và các trường hợp nhầm lẫn của mô hình.
 
-## Yêu cầu Hệ thống
 
-*   **Google Colab:** Môi trường được khuyến nghị.
-*   **GPU:** Bắt buộc để huấn luyện mô hình học sâu một cách hiệu quả. (Được cung cấp miễn phí bởi Google Colab).
-*   **Google Drive:** Cần không gian trống (khoảng 1 GB) để lưu trữ dữ liệu và mô hình.
-
-## Thư viện Python
-
-Dự án này sử dụng các thư viện Python chính sau:
-
-*   `torch`: PyTorch Deep Learning Framework
-*   `librosa`: Xử lý và phân tích âm thanh
-*   `numpy`: Tính toán khoa học
-*   `pandas`: Phân tích và thao tác dữ liệu
-*   `scikit-learn`: Tiền xử lý dữ liệu và đánh giá mô hình
-*   `matplotlib`, `seaborn`: Trực quan hóa dữ liệu
-*   `tqdm`: Hiển thị thanh tiến độ
-
-Tất cả các thư viện này sẽ được cài đặt tự động (hoặc đã có sẵn) khi bạn chạy ô code thiết lập môi trường trong Notebook.
 
