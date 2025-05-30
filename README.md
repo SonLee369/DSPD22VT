@@ -19,12 +19,19 @@ Dự án này tập trung vào việc xây dựng một hệ thống tự độn
 ## Cấu trúc Thư mục Dự án
 environmental_sound_classification/
 ├── data/
+
 │ ├── raw/ # Chứa dữ liệu âm thanh gốc (ESC-50-master.zip và thư mục giải nén)
+
 │ └── features/ # Chứa các đặc trưng đã trích xuất (Mel-spectrograms dưới dạng .npy files và processed_metadata.csv)
+
 │ └── esc50_mel_specs/
+
 ├── models/ # Chứa các mô hình đã huấn luyện (.pth files)
+
 ├── README.md # File hướng dẫn này
+
 ├── ESC_Project_Notebook.ipynb # File Google Colab Notebook chính (là toàn bộ mã nguồn)
+
 └── (Các file báo cáo hoặc tài liệu khác nếu có)
 
 
